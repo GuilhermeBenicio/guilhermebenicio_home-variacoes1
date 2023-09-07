@@ -168,3 +168,17 @@
     height: 50px;
   }
 }
+
+.carrossel {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.carrossel-item {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: white;
+}

@@ -44,6 +44,10 @@ const Conteudo = () => {
         <div className="conteudo-principal">
           <div className="imagem">
             <img src={imagem} alt="" />
+            <div className="carrossel">
+              <div className="carrossel-item"></div>
+              <div className="carrossel-item"></div>
+            </div>
           </div>
           <div className="informacoes-conta">
             {fatura ? null : (
