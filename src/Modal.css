@@ -1,0 +1,49 @@
+.overflay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo escuro semitransparente */
+  z-index: 999; /* Coloque a overlay acima do modal */
+}
+.modal {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1000;
+  border-radius: 10px 10px 0 0;
+  padding: 20px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra para escurecer o fundo */
+}
+
+.modal .bold {
+  font-weight: 700;
+}
+
+.modal p {
+  color: #3f3f3f;
+}
+
+.modal .label {
+  margin-top: 40px;
+}
+
+.modal .valor {
+  font-size: 24px;
+  margin-top: 8px;
+  margin-bottom: 25px;
+}
+
+.modal .btn {
+  display: inline-block;
+  color: white;
+  background-color: #06436b;
+  text-align: center;
+  padding: 20px 130px;
+  border-radius: 8px;
+  cursor: pointer;
+}
